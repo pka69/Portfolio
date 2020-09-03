@@ -8,11 +8,18 @@
 ## list of algorithms
 * count letter in sentence
 * fizzbuzz
-* fibonacci
+* fibonacci - three way of working
+* chessboard - two way of working
+* histogram
+* palindrome
+* censor
+* PESEL validate
+* flask - simple
 
 ## way of working
 * just testing my python experience
 
-## Technologies
+## technologies
 * python 3.8
+* flask
 
