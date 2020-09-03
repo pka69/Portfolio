@@ -4,7 +4,7 @@ def letters_count(text):
     sentence = text.replace(" ", "").lower()
     return Counter(sentence)
 
-def letters_count_max(text):
+def letters_count_max_first(text):
     dic_of_letters = letters_count(text)
     return dic_of_letters.most_common(1)
 
@@ -21,5 +21,5 @@ if __name__ == '__main__':
     sentence = "Toby znow jest zły"
     print(sentence)
     print(letters_count(sentence))
-    print(letters_count_max(sentence))
+    print(letters_count_max_first(sentence))
     print(letters_count_max_all(sentence))
